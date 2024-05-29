@@ -18,6 +18,9 @@ public class NumeroAleatorio {
             if (num % 3 == 0){
                 System.out.print(num);
                 encontrado = true;
+                if (num < min){
+                    min = num;
+                }
             }
 
         }while (num < 15);
